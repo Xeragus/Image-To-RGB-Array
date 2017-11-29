@@ -31,3 +31,5 @@ for i in range(2):
 for i in range(len(rgb_per_pixel)):
 	rgb_text_file.write(rgb_per_pixel[i] + "\n")
 	print(rgb_per_pixel[i])
+	
+rgb_text_file.close()
